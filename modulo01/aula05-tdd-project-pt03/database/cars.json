@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2c0d3577-dfba-4797-84a6-04f52f334a65",
+    "name": "Prius",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "655398eb-cf05-41e8-aff7-774136e5afd1",
+    "name": "Fiesta",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f10a28c5-91a6-45dc-8a69-b1155c10550d",
+    "name": "Corvette",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
