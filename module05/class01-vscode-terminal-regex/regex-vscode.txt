@@ -1,0 +1,25 @@
+regex101.com
+
+
+^\d{3}.\d{3}.\d{3}-\d{2}$
+replace [,-] por vazio
+
+123.123.123-12
+321.321.321-21
+345.345.345-12
+
+
+replace ^(\w+),\s(\w+)$ por { firstname: "$2", lastname: "$1" }
+
+Wendel, Erick
+Gomes, Laila
+Johnson, Jose
+
+
+replace \[(.*?)\]\(([http|https].*?)\) por <a href="$2">$1</a>
+
+O [Erick Wendel](https://erickwendel.com) faz palestras e você devia segui-lo lá no [Twitter](http://twitter.com/erickwendel_) ou até lá no [Instagram](https://instagra.com/erickwendel_)
+
+Ah e pode pesquisar no [Google](https://google.com)
+
+vai que vai
