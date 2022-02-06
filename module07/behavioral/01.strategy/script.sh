@@ -10,7 +10,6 @@ sudo docker run \
 sudo docker exec -it postgres psql --username carlos --dbname heroes
 CREATE TABLE warriors(id serial PRIMARY KEY, name VARCHAR (255) NOT NULL);
 
-
 sudo docker run \
   --name mongodb \
   -e MONGO_INITDB_ROOT_USERNAME=carlos \
