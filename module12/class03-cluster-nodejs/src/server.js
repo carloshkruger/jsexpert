@@ -1,8 +1,4 @@
 import { createServer } from "http";
-<<<<<<< HEAD
-=======
-import { appendFile } from "fs/promises";
->>>>>>> 2c5df378bdf1bc8874342d54d5f51e8d94fc7bb8
 
 export function initializeServer() {
   async function handler(request, response) {
